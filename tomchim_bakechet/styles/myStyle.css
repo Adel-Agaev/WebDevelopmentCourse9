@@ -1,0 +1,876 @@
+@import url('https://fonts.googleapis.com/css?family=Alef|Assistant&display=swap');
+
+@font-face {
+    font-family: 'gevertlevin';
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular.eot');
+    src: url('../fonts/GveretLevinAlefAlefAlef-Regular?#iefix') format('embedded-opentype'), url('../fonts/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
+}
+
+    body {
+    direction: rtl;
+    background-color: #F8F8F8;
+}
+
+#container{width:1366px;
+           margin: 0 auto;}
+#skip{
+position: absolute;
+z-index: 300;
+right: 200px;
+top: 10px;
+font-size: 15px;
+border: solid 1px black;
+color: black;
+opacity: 0;
+}
+article {
+    background-color: white;
+}
+a{text-decoration:none;}
+
+
+#container * {
+    font-family: Assistant;
+}
+
+/*currentpage*/
+.currentpage {
+    color: white !important;
+    background-color: #0d0575 !important;
+}
+
+/*קישורים לא פעילים*/
+.notActive {cursor:not-allowed;}
+
+/*.....................header.....................*/
+.keshetword {
+    position: relative;
+    bottom: 59px;
+    color: #C8F9DC;
+    font-size: 32pt;
+    font-family: 'gevertlevin' !important;
+}
+.tmichaword {
+    position: relative;
+    color: white;
+    font-size: 22pt;
+    left: 213px;
+    bottom: 19px;
+}
+.imglogo {
+    width: 97px;
+    height: 109px;
+    padding-right: 57px;
+}
+
+
+#nav1 {
+    background-color: #f3a330;
+    position: relative;
+    width: 51%;
+    height: 103.17px;
+   
+    color: black;
+    float: left;
+}
+    #nav1> ul >li > a {
+        border-left-width: 1px;
+        border-left-color: black;
+        border-left-style: solid;
+    }
+#purplebox1 {
+    background-color: #8e018e;
+ 
+    width: 49%;
+    height: 103.17px;
+    float: right;
+}
+
+/*........sticky.......*/
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 100px;
+}
+
+article {
+    clear: both;
+}
+
+/*.....................nav1...................*/
+#nav1 div {
+    display: inline-block;
+    background-color: black;
+    width: 1px;
+    height: 19px;
+    margin-top: 3px;
+    position: absolute;
+}
+#nav1 ul {
+    list-style: none;
+    background-color: #f4d094;
+}
+#nav1 ul li {
+    display: inline-block;
+    float: right;  
+}
+
+    #nav1 ul li a {
+        display: block;
+        color: black;
+        width: 138px;
+        font-weight: bold;
+        height: 32px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+/*............אינטרקציות ......... */
+        #nav1 ul li a:hover, #nav1 ul li a:focus {
+            color: white;
+            background-color: #0d0575;
+        }
+
+/*......................תתי תפריט ראשי ............ */
+#nav1 ul li>ul {
+    display: none;
+    position: absolute;}
+
+
+    #nav1 ul li:hover > ul, #nav1 ul li:focus > ul {
+        display: block;
+        width: 138px;
+    }
+    #nav1 ul li ul li ul {
+        display: none;
+        position:absolute;
+    }
+    #nav1 ul li ul li:hover ul, #nav1 ul li ul li:focus ul {
+        display: inline-block;
+        margin-right: 138px;
+        margin-top: -40px;
+    }
+    /*.............rightnav................*/
+    #rightnav {
+        margin-top: 110px;
+        position: absolute;
+       
+    }
+
+
+        #rightnav ul li a {
+            display: block;
+            background-color: #00c1be;
+            color: black;
+            text-align: center;
+            width: 157px;
+            height: 35px;
+            Padding-top: 10px;
+            margin-bottom: 15px;
+            font-size: 13pt;
+            font-weight: bold;
+        }
+
+            #rightnav ul li a:hover, #rightnav ul li a:focus {
+                background-color: #0d0575;
+                color: white;
+            }
+
+            #rightnav ul li ul {
+                display: none;
+                position: absolute;
+            }
+
+        #rightnav ul li:hover ul, #rightnav ul li:focus ul {
+            display: block;
+            width: 120px;
+            margin-right: 120px;
+            margin-top: -40px;
+        }
+
+/*..............clase..............*/
+.bluetitle {
+    background-color: #005c59;
+    color: white;
+    height: 70.24px;
+    font-size: 66pt;
+    text-align: center;
+    padding-bottom: 20px;
+    position: fixed;
+    width: 1366px;
+    margin-top: -17px;
+    z-index: 9;
+}
+.bluetitle2 {
+    background-color: #005c59;
+    color: white;
+    height: 70.24px;
+    font-size: 66pt;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 1366px;
+    margin-top: -17px;
+}
+.p_afterh1 {
+    margin-right: 350px;
+    margin-top: 20px;
+    line-height: 1.3;
+    font-size: 18pt;
+    padding-top: 115px;
+}
+
+
+/*..............homepage..............*/
+.yellow {
+    color: #e1ff1b;
+    font-size: 32pt;
+}
+#articleindex h2 {
+   
+    font-size: 54pt;
+}
+
+#fatherword {
+    position: relative;
+    top: 90px;
+    margin-right: -190px;
+}
+#motherword {
+    position: relative;
+    margin-left: 42px;
+    line-height: 1.3;
+    top: 20px;
+}
+
+.circles {
+    height: 88px;
+    width: 117px;
+    margin-top: 50px;
+}
+    .circles:hover,.circles:focus {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+#pindex {
+    font-size: 44pt;
+    text-align: center;
+    
+}
+#purplebox {
+    background-color: #8e018e;
+    position: relative;
+    width: 668.73px;
+    height: 565px;
+    display: block;
+    color: white;
+    font-size: 44pt;
+    text-align: center;
+    margin-top: -106px;
+}
+    #purplebox .yellow{
+        font-size:54pt;
+    }
+    #purplebox p {
+        margin-top: 100px;
+        line-height: 1.3;
+    }
+#blueboxindex {
+    margin-right: 425px;
+    background-color: #00625a;
+    height: 350.35px;
+    width: 458.83px;
+    text-align: center;
+    color: white;
+    line-height: 1.3;
+    font-size: 28pt;
+    margin-top: -350px;
+}
+
+
+#redbox {
+    background-color: #a10131;
+    height: 347.33px;
+    width: 426.19px;
+    text-align: center;
+    color: white;
+    line-height: 1.3;
+    font-size: 28pt;
+    clear: both;
+    float: right;
+}
+
+#greenbox {
+    background-color: #006000;
+    height: 348.09px;
+    width: 483px;
+    text-align: center;
+    float: left;
+    color: white;
+    line-height: 1.3;
+    font-size: 28pt;
+}
+
+
+/*............... homepage imgs..............*/
+
+#manindex {
+    background-image: url(../images/manindekxpng.png);
+    height: 568px;
+    background-repeat: no-repeat;
+    margin-top: -568px;
+    background-color: #f1a02d;
+    width: 697px;
+    float: left;
+    background-position: bottom
+}
+#boyshomep {
+    background-image: url(../images/boyshompp.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 350.35px;
+    width: 425.19px;
+    clear:both;
+}
+#hands {
+    background-image: url(../images/handshomp.jpg);
+    background-repeat: no-repeat;
+
+    height: 350px;
+
+    margin-top: -350px;
+    width: 483px;
+    float: left;
+  
+}
+#girlshomep {
+    background-image: url(../images/girlhompp.jpg);
+    background-repeat: no-repeat;
+    height: 347.33px;
+    width: 456.83px;
+    display: inline-block;
+    margin-right: -1px;
+}
+
+
+
+
+/*..............hashashot..............*/
+.purple {
+    color: #8e018e;
+}
+
+#hashashotbox {
+    background-color: #ebfaf5;
+    height: 530px;
+    width: 1125px;
+    margin-right: 240px;
+    color: black;
+    line-height: 1.3;
+    margin-top: 280px;
+    font-size: 18pt;
+}
+    #hashashotbox div {
+        margin-right: 565px;
+        margin-top: 10px;
+    }
+
+    #hashashotbox h2 {
+        font-size: 28pt;
+        margin-right: 122px;
+        
+    }
+    #hashashotbox p{margin-right: 122px;}
+    #hashashotbox img {
+        margin-right: -105px;
+        margin-top: 10px;
+        position: absolute;
+    }
+
+
+    #p_hashashot > img {
+        margin-right: -100px;
+        margin-top: -15px;
+        position: absolute;
+    }
+
+/*...............svivas..............*/
+
+    .p_afterh1 > img {
+        margin-right: -100px;
+        margin-top: -15px;
+        position: absolute;
+    }
+
+h2.sviva_h2 {
+    font-size: 24pt;
+    color: #0d0575;
+    margin-right: 300px;
+    padding-top: 30px;
+    font-weight: bolder;
+    clear:both;
+   
+}
+
+#articlesviva div {
+    margin-right: 255px;
+    padding-top: 10px;
+}
+#articlesviva h3 {
+   font-size:24pt;
+}
+
+
+section.myElement {
+    float: left;
+    width: 500px;
+    margin-top: -317px;
+    width: 548px;
+    BACKGROUND-COLOR: #e8f9f3;
+    height: 315px;
+}
+
+#articlesviva section ul {
+    list-style-type: square;
+    font-size: 18pt;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.content {
+    display: none;
+    
+    font-size: 26px;
+    margin: 0 auto;
+}
+
+
+.clickable {
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: 0 auto;
+    text-align:center;
+padding-top:10px;
+}
+
+
+    .clickable:hover, .clickable:focus {
+        color: white;
+        background-color: #005c59;
+    }
+
+    /*................answers.............*/
+#answerimage {
+    background-image: url(../images/answers.JPG);
+    width: 367px;
+    height: 450px;
+    float: left;
+    BACKGROUND-SIZE: 100%;
+    margin-top: 4px;
+}
+#articleanswers strong {
+    color: #0d0575;
+    margin-right: 200px;
+}
+
+
+.content3 {
+    display: none;
+    MARGIN-RIGHT: 257px;
+    PADDING-TOP: 40PX;
+    BACKGROUND-COLOR: #eaf9f4;
+    WIDTH: 735PX;
+    padding-bottom: 40px;
+    font-size: 14pt;
+}
+p .content3 > img {
+    position: relative;
+    margin-top: -30px;
+}
+
+    .clickable3 {
+        color: black;
+        display: block;
+        BACKGROUND-COLOR: #f2f2f2;
+        WIDTH: 735PX;
+        MARGIN-RIGHT: 257PX;
+        MARGIN-TOP: 10PX;
+    }
+
+span.fromparent {
+    color: #0d0575;
+    font-size: 13PT;
+    font-weight: bold;
+    display: block;
+    margin-right: 205px;
+    margin-top: -60px;
+    MARGIN-TOP: -15PX;
+}
+
+
+span.ask {
+    position: relative;
+    bottom: 50px;
+    right: 6px;
+    font-size: 18pt;
+}
+.myElement3 img {
+    margin-right: 95px;
+    padding: 3px;
+    width: 98px;
+    height:97px;
+}
+.clickable3 img:hover, .clickable3 img:focus {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+   
+    span.span1answersp {
+        display: block;
+        MARGIN-TOP: -95PX;
+        padding-right: 200px;
+    }
+span.span2answersp{
+display: inline-block;
+width: 500px;
+margin-right: 200px;
+}
+
+/*...............keila............*/
+#keilabox {
+    background-color: #ebfaf5;
+    width: 1156px;
+    margin-right: 210px;
+    font-size: 18pt;
+    clear: both;
+}
+    #keilabox p {
+       clear:both;
+    }
+    #keilabox div {
+        margin-right: 140px;
+    }
+    #keilabox img {
+        margin-right: 42px;
+    }
+
+#boys_balon {
+    background-image: url(../images/boysbalons.jpg);
+    width: 268px;
+    height: 310px;
+    float: left;
+    margin-top: -135px;
+}
+span.spankeila1 {
+    position: relative;
+    bottom: 70px;
+}
+
+span.spankeila2 {
+    display: block;
+    margin-right: 141px;
+    margin-top: -60px;
+    padding-bottom: 30px;
+}
+    span.spankeila3{
+ display: block;
+    margin-right: 140px;
+    margin-top: -20px;
+    padding-bottom: 30px;
+    }
+   
+    .content2 {
+        display: none;
+        font-size: 14pt;
+        background-color: #bdd7ee;
+        width: 260px;
+        text-align: center;
+        border: 1px solid;
+        margin-right:364PX;
+    }
+
+
+.clickable2 {
+    text-decoration: none;
+    color: black;
+    font-size: 18pt;
+    display: inline-block;
+    color: white;
+    background-color: #3c668e;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    MARGIN-RIGHT: 416PX;
+}
+
+
+    .clickable2:hover, .clickable2:focus {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    /*...............odot..............*/
+    #articleabout {
+        background-color: #ebfaf5;
+        height: 100%;
+        padding-bottom: 20px
+    }
+#articleabout h2 {
+    font-weight: 800;
+    font-size: 24pt;
+   
+    margin-bottom: 10px;
+}
+    #articleabout section {
+        margin-right:52.5px;
+        MARGIN-TOP: 30PX;
+    }
+
+
+
+
+.boxodot {
+    background-color: #e2e2e2;
+    width: 500px;
+    padding: 14px;
+    line-height: 2;
+    
+}
+ul #courses {
+    list-style-type: square;
+    margin-right: 25px;
+    line-height: 2;
+}
+.boxodot > ul {
+    list-style-type: square;
+    margin-right: 25px;
+    line-height: 2;
+}
+#articleabout ul li a:hover, #articleabout ul li a:focus {
+    text-decoration: underline;
+}
+#hit_BOX img {
+    width: 250px;
+}
+#hit_BOX {
+    background-color: #e2e2e2;
+    width: 263px;
+    text-align: center;
+    font-size: 16pt;
+    text-decoration-line: underline;
+    margin-top: -255px;
+    padding: 33px 0px 34px 0;
+    margin-right: 1000px;
+}
+    #articleabout #us {
+    width: 270px;
+    float: left;
+    margin-top: -970px;
+}
+
+#us img {
+    display: block;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 18px;
+    border: 5px solid white;
+}
+
+#us p {
+    position: absolute;
+    width: 160px;
+    height: 100px;
+    opacity: 0;
+    border-radius: 50%;
+    margin-top: 5px;
+    padding-top: 60px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17pt;
+    background-color: #005c59;
+    color: white;
+    margin-right: 5px;
+}
+    #us p:hover, #us p:focus {
+        opacity: 0.8;
+    }
+
+/*..............mapa..............*/
+#siteMap .mapul li a {
+    font-size: 12pt;
+    color: #3c668e;
+}
+#siteMap {
+    height: 560px;
+}
+#siteMap ul li {
+    margin-bottom: 20px;
+}
+   #siteMap ul li ul li:first-child {
+            padding-top: 20px;
+        }
+#siteMap ul:first-child > li > a {
+    font-weight: bold;
+    font-size: 18pt;
+    color: #8e018e;
+}
+ 
+   
+    
+ #siteMap ul li a:focus {
+        text-decoration: underline;
+    }
+
+    #siteMap ul:first-child > li {
+        margin-right: 30px;    
+    }
+
+#siteMap .notActive:hover, #siteMap .notActive:focus {
+    color: lightgray;
+}
+#siteMap ul li a {
+    text-decoration: none;
+    color: #549d9d;
+    font-size: 14pt;
+    font-weight:700;
+
+}
+#mapa ul li .notActive {
+    cursor: not-allowed;
+    color: gray;
+}
+
+.grid{
+display: grid;
+grid-template-columns: auto auto auto auto auto auto auto auto;
+}
+/*..............contect..............*/
+#articlecotect{
+    background-color: #ebfaf5;
+}
+.required {
+    color: #AD0003;
+    FONT-WEIGHT: bold;
+}
+form label {
+    display: block;
+    padding-bottom: 10px;
+    width: 200px;
+    padding-top: 10px;
+    margin-right: 100px;
+    FONT-WEIGHT: bold;
+}
+
+form {
+    width: 500px;
+    margin-right: 262px;
+    margin-right: 250px;
+    line-height: 1.3;
+    margin-top: 100px;
+    border: 10px solid #005c59;
+
+}
+
+#Send {
+    margin-right: 105px;
+    width: 120px;
+    margin-bottom: 10px;
+    background-color: #005c59;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+}
+    #Send:hover, #Send:focus {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+/*..............footer..............*/
+footer {
+    height: 2.29cm;
+    background-color: #e2e2e2;
+    clear: both;
+}
+        footer nav {
+            font-size: 22pt;
+            float: left;
+            padding-top: 15px;
+            padding-left: 40px;
+        }
+        footer p {
+            clear: both;
+            float: left;
+            padding-left: 100px;
+            font-size: 13pt;
+            margin-top: 10px;
+        }
+    footer>nav ul li {
+        display: inline-block;
+    }
+        footer ul li a {
+           
+            color: black;
+        }
+    footer nav > ul > li:first-child a {
+        color: black;
+        border-left-width: 1px;
+        border-left-color: black;
+        border-left-style: solid;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    footer ul > li:nth-child(2) a {
+       
+        color: black;   
+        border-left-width: 1px;
+        border-left-color: black;
+        border-left-style: solid; 
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    footer div {
+        DISPLAY: flex;
+    }
+        footer ul li a:hover, footer ul li a:focus {
+            color: #830183;
+            text-decoration: underline;
+        }
+
+
+
+
+.content6 {
+    display: none;
+    BACKGROUND-COLOR: #f2f2f2;
+    margin-right: -80px;
+    z-index: 1;
+    height: 100PX;
+    WIDTH: 930PX;
+    MARGIN-TOP: -73PX;
+}
+
+
+
+.clickable6 {
+    color: black;
+    display: block;
+    text-decoration-line: underline;
+    font-weight: bold;
+
+}
+.clickable6:hover, .clickable6:focus {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.content6.showhide li {
+    margin-right: 20px;
+    padding: 2px
+}
